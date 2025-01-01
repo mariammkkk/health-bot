@@ -1,12 +1,14 @@
-sentence-transformers==2.2.2 # Use for creating open-source vector embeddings
-langchain
-flask
-pypdf
-python-dotenv
-pinecone[grpc]
-langchain-pinecone
-langchain_community
-langchain_openai
-langchain_experimental
+Flask==3.1.0
+langchain==0.3.13
+langchain_community==0.3.13
+langchain_huggingface==0.1.2
+langchain_pinecone==0.2.0
+pinecone==5.4.2
+python-dotenv==1.0.1
+setuptools==75.6.0
 
--e .
+sentence-transformers==2.2.2 # to create open-source vector embeddings from text using pretrained transformer models
+pypdf==10.8.1                # library for reading, manipulating, and prcessing PDF files
+pinecone[grpc] 
+langchain_openai             # so i can use OpenAI models within langchain workflows
+
