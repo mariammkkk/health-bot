@@ -17,7 +17,7 @@ conda create -n bot python=3.10 -y
 conda activate bot
 ```
 
-### STEP 02 - Install Requirements
+Install Requirements
 ```bash
 pip install -r requirements.txt
 ```
